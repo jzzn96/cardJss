@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  </style>
+</head>
+<div id="container">
+  <div id="coberturas1"></div>
+  <div id="coberturas2"></div>
+</div>
+
+<body>
+  <img src="./images/bg-main-desktop.png" class="template">
+  <img src="./images/bg-card-front.png" class="card-front">
+  <img src="./images/bg-card-back.png" class="card-back">
+  <div id="circle1"></div>
+  <div id="circle2"></div>
+  <div class="text-card">
+    <h2>7987 2148 7894 1224</h2>
+    <p class="info1">Jean Santos</p>
+    <p class="info2">11/2035</p>
+  </div>
+
+  <h3>
+    123
+  </h3>
+
+  <form class="infoCard">
+    <div class="jsScript">
+    <label for="name">CARDHOLDER NAME</label>
+    <br>
+    <input type="text" placeholder="e.g. Seu Nome" size="36" id="nome">
+    <br>
+    <br>
+    <label for="name">CARD NUMBER</label><br>
+    <input type="text" placeholder="e.g. 0000 0000 0000 0000" maxlength="16" size="36" id="numero">
+    <br><br>
+    <label for="name">EXP. DATE (MM/YY)</label>&emsp;&emsp;&emsp;&emsp;
+    <label for="name">CVC</label><br>
+    <input type="day" placeholder="MM" maxlength="2" size="4" id="month"> &emsp;&emsp;
+    <input type="day" placeholder="YY" maxlength="2" size="4" id="year">&emsp; &ensp;&emsp;&emsp;&emsp;
+    <input type="text" placeholder="e.g. 000" maxlength="3" size="7" id="cc">
+  </div>
+    <br>
+    <br>
+    <button class="button1" onclick="logar(); return false">Confirm</button>
+  </form>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
